@@ -46,7 +46,6 @@ const AddCoffee = () => {
       </p>
       <form className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-md" onSubmit={handleAddCoffee}>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
-          {/* Name Field */}
           <div>
             <label className="label text-gray-700 font-medium">Coffee name</label>
             <input
@@ -56,7 +55,6 @@ const AddCoffee = () => {
               placeholder="Enter coffee name"
             />
           </div>
-          {/* Chef Field */}
           <div>
             <label className="label text-gray-700 font-medium">Available quantity</label>
             <input
@@ -66,7 +64,6 @@ const AddCoffee = () => {
               placeholder="Available quantity"
             />
           </div>
-          {/* Supplier Field */}
           <div>
             <label className="label text-gray-700 font-medium">Supplier name</label>
             <input
@@ -76,7 +73,6 @@ const AddCoffee = () => {
               placeholder="Supplier name"
             />
           </div>
-          {/* Taste Field */}
           <div>
             <label className="label text-gray-700 font-medium">Taste</label>
             <input
@@ -86,7 +82,6 @@ const AddCoffee = () => {
               placeholder="Taste"
             />
           </div>
-          {/* Category Field */}
           <div>
             <label className="label text-gray-700 font-medium">Category</label>
             <input
@@ -96,7 +91,6 @@ const AddCoffee = () => {
               placeholder="Coffee category"
             />
           </div>
-          {/* Details Field */}
           <div>
             <label className="label text-gray-700 font-medium">Details</label>
             <input
@@ -106,7 +100,6 @@ const AddCoffee = () => {
               placeholder="Details"
             />
           </div>
-          {/* Photo Field */}
           <div className="md:col-span-2">
             <label className="label text-gray-700 font-medium">Photo</label>
             <input
@@ -117,7 +110,6 @@ const AddCoffee = () => {
             />
           </div>
         </div>
-        {/* Submit Button */}
         <div className="mt-6">
           <button className="btn btn-block bg-[#D2B48C] text-white hover:bg-[#ff782f]">
             Add Coffee
